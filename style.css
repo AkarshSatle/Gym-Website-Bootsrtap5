@@ -1,0 +1,181 @@
+body, html {
+    height: 100%;
+}
+
+/* hero */
+.hero-image {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(./images/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text {
+    text-align: center;
+    color: #fff;
+}
+.hero-text p {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+@media (max-width: 576px) {
+    .hero-image {
+        margin-top: 56px;
+    }
+    .hero-text p {
+        font-size: 1.3rem;
+    }
+    .hero-text h1 {
+        font-size: 1.5rem;
+    }  
+}
+@media (min-width: 768px) {
+    .hero-image {
+        margin-top: 56px;
+    }
+}
+@media(min-width: 1024px) {
+    .hero-image {
+        margin-top: 56px;
+    }
+}
+
+/* About*/
+.about-section {
+    padding-top: 2rem;
+}
+@media (max-width: 576px) {
+    .about-text {
+        margin-top: 1rem;
+    }
+}
+
+/* Trainer section */
+
+.trainer-section {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.trainer-heading {
+    text-align: center;
+}
+.card {
+    margin-top: 1.2rem;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: transform .3s ease-out;
+}
+.card-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.card-text {
+    text-align: center;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .card {
+        box-shadow: none;
+        transform: none;
+    }
+}
+@media (min-width: 1024px) {
+    .card:hover {
+        box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+        transform: scale(1.04);
+    }
+}
+
+
+/* Course Price */
+
+.plan-card {
+    overflow: hidden;
+    border-radius: 20px;
+    transition: transform .3s ease-out;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+}
+.plan-amount {
+    margin-top: 2rem;
+}
+.plan-heading {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+ .plan-name {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.plan-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.plan-price > span {
+    color: red;
+    font-size: 2.5rem;
+}
+.list {
+    list-style-type: none;
+}
+.list-tick {
+    list-style-image: url(./images/tick.svg);
+    padding-left: 2rem;
+}
+.list-tick .list-item {
+    margin-bottom: 1rem;
+}
+.plan-btn{
+    text-align: center;
+}
+.plan-btn .btn {
+    padding: 5px 60px;
+    border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+    .plan-card {
+        box-shadow: none;
+        transform: none;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .plan-card:hover {
+        box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+        transform: scale(1.04);
+    } 
+}
+
+/* Contact & map */
+.contact-section {
+    margin-top : 2rem; 
+}
+.contact-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#map {
+    width: 100%;
+    height: 100%;  
+    overflow: hidden;
+}
+
