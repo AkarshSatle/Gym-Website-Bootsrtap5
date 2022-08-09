@@ -85,20 +85,6 @@ body, html {
     font-size: 1rem;
 }
 
-@media (min-width: 768px) {
-    .card {
-        box-shadow: none;
-        transform: none;
-    }
-}
-@media (min-width: 1024px) {
-    .card:hover {
-        box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
-        transform: scale(1.04);
-    }
-}
-
-
 /* Course Price */
 
 .plan-card {
@@ -147,21 +133,6 @@ body, html {
 .plan-btn .btn {
     padding: 5px 60px;
     border-radius: 20px;
-}
-
-@media (min-width: 768px) {
-    .plan-card {
-        box-shadow: none;
-        transform: none;
-    }
-}
-
-
-@media (min-width: 1024px) {
-    .plan-card:hover {
-        box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
-        transform: scale(1.04);
-    } 
 }
 
 /* Contact & map */
